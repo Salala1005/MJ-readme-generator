@@ -1,6 +1,16 @@
+function renderContributing(answers) {
+  if (answers === true) {
+  return `Thank you for contributing`
+  } else {
+    return `Maybe Next time!`
+  }
+  
+}
+
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `# ${answers.title}
+  ![badge](https://img.shields.io/badge/licence-${answers.license}-blue)
   ## Table-of-contents
   * [Description](#description)
   * [License](#license)
@@ -10,29 +20,28 @@ function generateMarkdown(answers) {
   * [Test](#test)
   * [Questions](#questions)
   
-  [Description](#table-of-content)<br />
+  ### Description
   ${answers.description}
 
-  [License](#table-of-content)<br />
+  ### License
   ${answers.license}
 
-  [Usage](#table-of-content)<br />
+  ### Usage
   ${answers.usage}
 
-  [Installation](#table-of-content)<br />
+  ### Installation
   ${answers.installation}
 
-  [Contributing](#table-of-content)<br />
-  ${answers.contributing}
+  ### Contributing
+  ${renderContributing(answers)}
 
-  [Test](#table-of-content)<br />
+  ### Test
   ${answers.test}
 
-  [Questions](#table-of-content)<br />
-  Please contact me at <br />
+  ### Questions
+  Please contact me at the links below. <br />
   [GitHub](https://github.com/${answers.github})<br />
-  [Email](${answers.email})
-
+  <a href="mailto:${answers.email}?">Email</a>
 `;
 }
 
