@@ -18,7 +18,7 @@ function init() {
   { type:'list',
   name: 'license',
   message: 'Please select the license type',
-  choices:['Mit', 'BSD3',],
+  choices:['Mit', 'BSD3','GNU'],
   },
   { type:'input',
   name: 'usage',
@@ -49,7 +49,7 @@ function init() {
     console.log(answers);
 
     fs.writeFile('outputreadme.md', generateMarkdown(answers), (err) =>
-    err ? console.error(err) : console.log('Success!')
+    err ? console.error(err) : console.log('Readme file has been created successfully!')
     );
   })
   .catch((error) => {
