@@ -1,4 +1,4 @@
-# Readme generator
+# Readme Generator
   ![badge](https://img.shields.io/badge/licence-Mit-blue)
   ## Table-of-contents
   * [Description](#description)
@@ -16,16 +16,16 @@
   Mit
 
   ### Usage
-  test test is in use
+  test in use
 
   ### Installation
-  npm i to install
+  write npm i
 
   ### Contributing
   Maybe Next time!
 
   ### Test
-  test test
+  test
 
   ### Questions
   Please contact me at the links below. <br />
