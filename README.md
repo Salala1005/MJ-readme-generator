@@ -2,7 +2,7 @@
 
 ## Description
 
-In this project, It create a README file by using a command-line application to generate one.</br>
+In this project, I create a README file by using a command-line application to generate one.</br>
 This allows the project creator to devote more time to working on the project.</br> 
 Built-in questions with user's input allow app to create README file dynamically.
 
