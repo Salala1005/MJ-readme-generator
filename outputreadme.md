@@ -1,4 +1,5 @@
-# hfkhgjh;jl
+# Readme generator
+  ![badge](https://img.shields.io/badge/licence-Mit-blue)
   ## Table-of-contents
   * [Description](#description)
   * [License](#license)
@@ -8,26 +9,25 @@
   * [Test](#test)
   * [Questions](#questions)
   
-  [Description](#table-of-content)<br />
-  hgfkjhkl
+  ### Description
+  test
 
-  [License](#table-of-content)<br />
+  ### License
   Mit
 
-  [Usage](#table-of-content)<br />
-  hfgdjhgkjhkj
+  ### Usage
+  test test is in use
 
-  [Installation](#table-of-content)<br />
-  gfdjthgkujl
+  ### Installation
+  npm i to install
 
-  [Contributing](#table-of-content)<br />
-  true
+  ### Contributing
+  Maybe Next time!
 
-  [Test](#table-of-content)<br />
-  fgdjhgkj
+  ### Test
+  test test
 
-  [Questions](#table-of-content)<br />
-  Please contact me at 
-  [GitHub](sfrghjgkjhlkj)<br />
-  [Email](dtghkfgjhl;k)
-
+  ### Questions
+  Please contact me at the links below. <br />
+  [GitHub](https://github.com/salala1005)<br />
+  <a href="mailto:jin.mijeong@gmail.com?">Email</a>
